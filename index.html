@@ -1,3 +1,15 @@
 <HTML>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+<script type='text/javascript'>
+function init() {
+ Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/1Ice4tlzts_JPM6JOaCzuMDErw2RyqAk8ruH8w6_HWHM/pubhtml',
+ callback: function(data, tabletop) {
+ console.log(data)
+ },
+ simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
+
+</script>
 <p>Test abc</p>
 </HTML>
