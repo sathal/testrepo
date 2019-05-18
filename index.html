@@ -1,21 +1,2 @@
-<HTML>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-  <script type='text/javascript'>
-    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1Ice4tlzts_JPM6JOaCzuMDErw2RyqAk8ruH8w6_HWHM/pubhtml';
-
-    function init() {
-      Tabletop.init( { key: publicSpreadsheetUrl,
-                       callback: showInfo,
-                       simpleSheet: true } )
-    }
-
-    function showInfo(data, tabletop) {
-      alert('Successfully processed!')
-      console.log(data);
-    }
-
-    window.addEventListener('DOMContentLoaded', init)
-  </script>
-<p>Test abc</p>
-<p>Test ABC</p>
-</HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns:html="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>InventoryApp</title><link rel="stylesheet" href="Resources/SampleStyle.css" /></head><body><h1 id="documentTitle">InventoryApp</h1><p id="documentMetadata">Exported at: Fri May 17 2019 21:35:52 GMT-0500 (CDT)</p><div class="Page" id="home_page_page"><h2>Home Page</h2><div class="ImageContainer"><img src="pages/home_page.png" width="390" height="762" usemap="#map_home_page" /></div><map name="map_home_page"><area shape="rect" coords="87.60000610351562,201.39999389648438,309.600006103516,277.399993896484" href="#medicines_page_1_page" title="Go to page 'Medicines Page 1'" /></map></div><div class="Page" id="medicines_page_1_page"><h2>Medicines Page 1</h2><div class="ImageContainer"><img src="pages/medicines_page_1.png" width="390" height="762" usemap="#map_medicines_page_1" /></div><map name="map_medicines_page_1"><area shape="rect" coords="57,583,128,633" href="#home_page_page" title="Go to page 'Home Page'" /><area shape="rect" coords="87.60000610351562,201.39999389648438,309.600006103516,277.399993896484" href="#medicines_page_2_page" title="Go to page 'Medicines Page 2'" /></map></div><div class="Page" id="medicines_page_2_page"><h2>Medicines Page 2</h2><div class="ImageContainer"><img src="pages/medicines_page_2.png" width="390" height="762" usemap="#map_medicines_page_2" /></div><map name="map_medicines_page_2"><area shape="rect" coords="57,582,128,632" href="#medicines_page_1_page" title="Go to page 'Medicines Page 1'" /></map></div></body></html>
